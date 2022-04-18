@@ -1,0 +1,41 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+
+#jondeo {
+    overflow-x: hidden;
+    padding: 60px 0;
+    background: #f8f8f8;
+
+    .jon_icon {
+
+        height: 100%;
+        position: relative;
+
+        a {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            border: 2px solid #95e1d3;
+            padding: 50px;
+
+            i {
+                font-size: 50px;
+                color: #95e1d3;
+            }
+        }
+    }
+
+    .jon_txt {
+        p {
+            @include ts(#999, 24px, 300, $roboto);
+            font-style: italic;
+            line-height: 36px;
+        }
+
+        a {
+            @include ts(#333, 24px, 400, $kausahara);
+        }
+    }
+}

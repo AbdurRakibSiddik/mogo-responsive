@@ -1,0 +1,33 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+#services {
+    padding: 70px 0;
+
+    .serv_details {
+        .serv_txt {
+            margin-left: 70px;
+            margin-top: 70px;
+            position: relative;
+
+            i {
+                position: absolute;
+                left: -70px;
+                top: 0;
+                font-size: 40px;
+                color: aqua;
+            }
+
+            h3 {
+                @include ts(#333, 14px, 400, $monts);
+                text-transform: uppercase;
+            }
+
+            p {
+                @include ts(#999, 15px, 400, $monts);
+                line-height: 24px;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+#about {
+    padding: 80px 0;
+
+    .about_details {
+        margin-top: 70px;
+       padding: 0 -15px;
+        .about_img {
+           
+          margin: 0 15px;
+        
+        
+            position: relative;
+      
+            .overly {
+                position: absolute;
+                top: 0;
+                left: 0;
+                // width: 420px;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, rgba(231, 131, 129, 0.7), rgba(232, 208, 130, 0.7));
+                transform: scale(0);
+                transition: all linear 0.3s;
+                overflow-X: hidden;
+                .img_txt {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+
+                    transform: translate(-50%, -50%);
+
+                    a {
+                        color: #fff;
+                    }
+
+                    h5 {
+                        @include ts(#fff, 14px, 700, $monts);
+                        text-transform: uppercase;
+
+                        a {
+                            text-decoration: none;
+
+                        }
+                    }
+                }
+            
+            }
+
+            &:hover {
+                .overly {
+                    transform: scale(1);
+                    transform-origin: top;
+                }
+            }
+        }
+    }
+}

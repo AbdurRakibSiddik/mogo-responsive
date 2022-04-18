@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@font-face {
+    font-family: myriadpro;
+    src: url(/myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transition: all linear 0.3s;
+}
+ul, ol{
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+   
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.text_center{
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+// +++++++++++++++++++++ coomon head
+.about_head h4{
+    
+color: #333;
+font-size: 24px;
+font-family: 'Kaushan Script', cursive;;
+    
+}
+.about_head h2{   
+color: #333;
+font-size: 30px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;  
+}
+.about_head p{   
+color: #999;
+font-size: 15px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+margin-top: 30px;
+line-height: 22px;
+
+}

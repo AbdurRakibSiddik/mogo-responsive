@@ -1,0 +1,42 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+
+#banner {
+    overflow-x: hidden;
+    padding: 230px 0;
+    .banner_txt {
+
+        h4 {
+            @include ts(#fff, 72px, 400, $kausahara);
+            text-transform: capitalize;
+
+        }
+        h1 {
+            @include ts(#fff, 150px, 700, $my);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        img {
+      
+            margin: 0 auto;
+            margin-top: 30px
+        }
+      a {
+            margin-top: 50px;
+            @include ts(#fff, 14px, 700, $monts);
+            text-transform: uppercase;
+            padding: 12px 30px;
+            border: 3px solid #fff;
+            text-decoration: none;
+            transition: all linear 0.3s;
+
+            &:hover {
+                background: #fce38a;
+                border-color: #fce38a;
+                color: #fff;
+            }
+        }
+    }
+}

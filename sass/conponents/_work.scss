@@ -1,0 +1,62 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+.work_details {
+    padding: 100px 0;
+
+    .work_row {
+        .work_col {
+            width: 25%;
+
+            .work_img {
+                position: relative;
+
+                .overly {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(180deg, rgba(231, 131, 129, 0.7), rgba(232, 208, 130, 0.7));
+                    transform: scale(0);
+                    transition: all linear 0.3s;
+
+                    .overly_all {
+                        position: absolute;
+                        left: 50% !important;
+                        top: 50% !important;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                        width: 100%;
+
+                        i {
+                            color: #fff;
+                            font-size: 30px;
+                        }
+
+                        h4 {
+                            @include ts (#fff, 14px, 400, $monts);
+                            text-transform: uppercase;
+                            margin-top: 5px;
+
+                        }
+
+                        span {
+                            @include ts (#fff, 15px, 300, $roboto);
+                            font-style: italic;
+                            margin-top: 5px;
+
+                        }
+                    }
+                }
+
+                &:hover {
+                    .overly {
+                        transform: scale(1);
+                        transform-origin: top;
+                    }
+                }
+            }
+        }
+    }
+}

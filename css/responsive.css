@@ -1,0 +1,763 @@
+@media (max-width: 575.99px){
+    /*============main manu start=========*/
+    .manu {
+        position: static !important;
+      
+        background: #E98283;
+    }
+    .manu .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0 !important;
+    }
+    .manu ul li {
+        margin-left: 0px;
+        text-align: center;
+        background: #E98283;
+    }
+    .manu ul li a::after {
+      
+        display: none;
+    }
+    .manu {
+   
+        margin-top: 0px;
+    }
+    .manu.fixed {
+       
+        background: #E98283;
+    }
+    /*============main manu end=========*/
+
+
+    /*============banner start=========*/
+    #banner {
+        overflow-x: hidden;
+        padding: 45px 0;
+    }
+    #banner .banner_txt h4 {
+      
+        font-size: 30px;
+      
+    }
+    #banner .banner_txt h1 {
+      
+        font-size: 24px;
+     
+    }
+    br {
+        display: none;
+    }
+    #banner .banner_txt img {
+      
+        margin-top: 15px;
+        display: block;
+    }
+    #banner .banner_txt a {
+        margin-top: 35px;
+      
+    }
+    /*============banner end=========*/
+    /*============about start=========*/
+    #about {
+        overflow-x: hidden !important;
+        padding: 30px 0;
+    }
+    .about_head h2 {
+      
+        margin-bottom: -5px;
+    }
+    .about_head p {
+        margin-top: 5px;
+       
+    }
+    #about .about_details {
+        margin-top: 0px;
+    }
+    #about .about_details .about_img .overly {
+        display: none;
+    }
+    #about .about_details .about_img {
+        margin: 0 20px 0 0;
+        position: relative;
+    }
+
+    /*============about end=========*/
+    /*============counter start=========*/
+    #counter .counter_col {
+        padding: 27px 0 0;
+      
+    }
+    #counter .counter_col h3 {
+      
+        font-size: 20px;
+     
+    }
+    #counter .counter_col p {
+       
+        font-size: 10px;
+       
+    }
+    /*============counter end=========*/
+    /*============services start=========*/
+    #services {
+        padding: 30px 0;
+    }
+    .slick-slider {
+   
+        padding: 0 0 0 20px;
+    }
+    #services .serv_details .serv_txt {
+        margin-top: 15px;
+    }
+    /*============services end=========*/
+    /*============jon deo start=========*/
+    #jondeo {
+        overflow-x: hidden;
+        padding: 30px 0;
+       
+    }
+    #jondeo .jon_icon a {
+        position: relative;
+        top: 50%;
+     
+        padding: 30px;
+       
+    }
+    #jondeo .jon_txt p {
+      
+        font-size: 16px;
+        margin-bottom: -9px;
+        line-height: 28px;
+        margin-top: 15px;
+    }
+    /*============jon deo end=========*/
+    /*============team start=========*/
+    #team {
+        padding: 30px 0;
+    }
+    #team .team_details {
+        margin-top: 10px;
+    }
+    #team .team_details .team_img {
+     
+        padding: 0 20px 0 0;
+      
+    }
+    #team .team_details .team_img:hover .overly {
+      
+        display: none;
+    }
+    #team .team_details .team_txt {
+        margin-top: 16px;
+    }
+    /*============team end=========*/
+    /*============work start=========*/
+    #work {
+        margin-top: -20px;
+    }
+    .work_details {
+        padding: 4px 0 30px;
+    }
+    .work_details .work_row .work_col .work_img .overly {
+     
+        display: none;
+    }
+    /*============work end=========*/
+    /*============foooter start=========*/
+    #footer {
+     
+        padding-top: 30px;
+    }
+    #footer .foot_left p {
+        margin-top: 20px;
+      
+    }
+    #footer .foot_left h4 {
+      
+        margin-top: 10px;
+      
+    }
+    #footer .foot_left h5 ul li {
+        margin: 6px;
+    }
+    #footer .foot_left h5 ul li a i {
+     
+        font-size: 16px;
+    }
+    #footer .foot_left .btn ul li input {
+     
+        width: 270px;
+    }
+    #footer .foot_left .btn ul li button {
+    
+        margin-top: 20px;
+    }
+    .foot_blog {
+        margin-top: 20px;
+    }
+    #footer .foot_blog .blog_detaols {
+        margin-top: 20px;
+    }
+    .foot_last {
+        margin-top: 20px;
+    }
+    #footer .foot_last .instra_details {
+        margin-top: 20px;
+       
+    }
+    /*============foooter end=========*/
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /*++++++++++++manu start++++++++++++*/
+    .manu {
+        position: static !important;
+      
+        background: #E98283;
+    }
+    .manu .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0 !important;
+    }
+    .manu ul li {
+        margin-left: 0px;
+        text-align: center;
+        background: #E98283;
+    }
+    .manu ul li a::after {
+      
+        display: none;
+    }
+    .manu {
+   
+        margin-top: 0px;
+    }
+    .manu.fixed {
+       
+        background: #E98283;
+    }
+    /*++++++++++++manu end++++++++++++*/
+    /*++++++++++++banner start++++++++++++*/
+    #banner {
+      
+        padding: 80px 0;
+    }
+    #banner .banner_txt h4 {
+       
+        font-size: 40px;
+        
+    }
+    br {
+        display: none;
+    }
+    #banner .banner_txt h1 {
+      
+        font-size: 52px;
+    
+    }
+    #banner .banner_txt img {
+    
+        display: block;
+    }
+    /*++++++++++++banner end++++++++++++*/
+    /*++++++++++++about start++++++++++++*/
+    #about {
+       
+        padding: 40px 0;
+    }
+    .about_head p {
+     
+        margin-top: 7px;
+       
+    }
+    #about .about_details .about_img {
+    
+        margin-top: 10px;
+    }
+    /* #about .about_details .about_img .overly {
+    
+        width: 517px;
+       
+    } */
+    #about .about_details .about_img .overly .img_txt a {
+      
+        font-size: 25px;
+    }
+    /*++++++++++++about end++++++++++++*/
+    /*++++++++++++counter start++++++++++++*/
+    #counter .counter_col {
+        padding: 30px 0 0px;
+     
+    }
+    #counter .counter_col h3 {
+     
+        font-size: 35px;
+      
+    }
+    #counter .counter_col p {
+       
+        font-size: 12px;
+     
+        text-transform: capitalize;
+    }
+    /*++++++++++++counter end++++++++++++*/
+    /*++++++++++++services start++++++++++++*/
+    #services {
+        padding: 40px 0;
+    }
+    #services .serv_details .serv_txt {
+      
+        margin-top: 20px;
+      
+    }
+    /*++++++++++++services end++++++++++++*/
+    /*++++++++++++jon start++++++++++++*/
+    #jondeo .jon_icon a {
+        margin-top: 22px;
+        padding: 25px;
+        left: 0;
+    }
+    #jondeo .jon_txt p {
+     
+        font-size: 15px;
+     
+        line-height: 22px;
+        margin-left: 142px;
+        margin-top: -38px;
+    }
+    .jon_txt img {
+        margin-left: 142px !important;
+      
+    }
+    #jondeo .jon_txt a {
+
+        margin-top: -92px !important;
+    }
+    /*++++++++++++jon end++++++++++++*/
+    /*++++++++++++team start++++++++++++*/
+    #team {
+        padding: 40px 0;
+    }
+    #team .team_details {
+        margin-top: 10px;
+    }
+    /* #team .team_details .team_img .overly {
+    
+        width: 510px;
+     
+    } */
+    #team .team_details .team_img .overly .overly_all {
+   
+        margin-left: 149px;
+    
+    }
+
+    /*++++++++++++team end++++++++++++*/
+    /*++++++++++++work start++++++++++++*/
+    .work_details {
+        padding: 30px 0;
+    }
+    .work_details .work_row .work_col .work_img .overly .overly_all i {
+       
+        font-size: 17px;
+    }
+    .work_details .work_row .work_col .work_img .overly .overly_all h4 {
+     
+        font-size: 12px;
+      
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+    .work_details .work_row .work_col .work_img .overly .overly_all span {
+  
+        font-size: 13px;
+     
+        margin-top: 0px !important;
+    }
+    /*++++++++++++work end++++++++++++*/
+    /*++++++++++++footer start++++++++++++*/
+    #footer .foot_left p {
+        margin-top: 15px;
+      
+    }
+    #footer .foot_left h4 {
+    
+        margin-top: 15px;
+     
+    }
+    #footer .foot_left .btn {
+      
+        margin-left: -15px;
+    }
+    .foot_blog {
+        margin-top: 30px;
+    }
+    #footer .foot_blog .blog_detaols {
+        margin-top: 20px;
+        position: relative;
+    }
+    .b_txt {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .foot_last {
+        margin-top: 20px;
+    }
+    #footer .foot_last .instra_details {
+        margin-top: 30px;
+      
+    }
+    /*++++++++++++footer end++++++++++++*/
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+    /*============manu start=========*/
+    .manu {
+        position: static !important;
+      
+        background: #E98283;
+    }
+    .manu .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0 !important;
+    }
+    .manu ul li {
+        margin-left: 0px;
+        text-align: center;
+        background: #E98283;
+    }
+    .manu ul li a::after {
+      
+        display: none;
+    }
+    .manu {
+   
+        margin-top: 0px;
+    }
+    .manu.fixed {
+       
+        background: #E98283;
+    }
+    /*============manu end=========*/
+    /*============banner start=========*/
+    #banner {   
+        padding: 70px 0;
+    }
+    #banner .banner_txt h4 {
+        font-size: 50px;
+    }
+    br {
+        display: none;
+    }
+    #banner .banner_txt h1 {
+        font-size: 70px;
+    }
+    #banner .banner_txt img {
+        display: block;
+    }
+    /*============banner end=========*/
+    /*===========about start=========*/
+    #about {
+        padding: 40px 0;
+    }
+    #about .about_details {
+      
+        margin: 20px -15px 0;
+    }
+    /* #about .about_details .about_img .overly {
+    
+        width: 212px;
+     
+    } */
+    #about .about_details .about_img .overly .img_txt h5 {
+        width: 100px;
+    }
+    /*===========about end=========*/
+    /*============counter start=========*/
+    #counter .counter_col {
+        padding: 30px 0 15px;
+     
+    }
+    #counter .counter_col h3 {
+     
+        font-size: 35px;
+      
+    }
+    #counter .counter_col p {
+       
+        font-size: 12px;
+     
+        text-transform: capitalize;
+    }
+    /*============counter end=========*/
+    /*============services start=========*/
+    #services {
+        padding: 40px 0;
+    }
+    #services .serv_details .serv_txt {
+     
+        margin-top: 20px;
+       
+    }
+    /*============services end=========*/
+    /*============jon start=========*/
+    #jondeo .jon_icon a {
+        margin-top: 56px;
+        padding: 25px;
+        left: 0;
+    }
+    #jondeo .jon_txt p {
+     
+        font-size: 15px;
+     
+        line-height: 22px;
+        margin-left: 142px;
+        margin-top: 0px;
+    }
+    .jon_txt img {
+        margin-left: 142px !important;
+      
+    }
+    #jondeo .jon_txt a {
+
+        margin-top: -92px !important;
+    }
+    /*============jon end=========*/
+    /*============team start=========*/
+    #team {
+        padding: 40px 0;
+    }
+    .about_head p {
+     
+        margin-top: 15px;
+      
+    }
+    #team .team_details {
+        margin-top: 20px;
+    }
+    /* #team .team_details .team_img .overly { 
+      width: 210px;   
+    } */
+    #team .team_details .team_img .overly .overly_all {  
+        margin-left: 48px;
+        width: 0%;
+    }
+    #team .team_details .team_txt {
+        margin-top: 20px;
+    }
+
+    .work_details {
+        padding: 20px 0 40px;
+    }
+    #team .team_details .team_img .overly .overly_all ul li a {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    /*============team end=========*/
+    /*============footer start=========*/
+    #footer .foot_left p {
+        margin-top: 15px;
+      
+    }
+    #footer .foot_left h4 {
+    
+        margin-top: 15px;
+     
+    }
+    #footer .foot_left .btn {
+      
+        margin-left: -15px;
+    }
+    .foot_blog {
+        margin-top: 30px;
+    }
+    #footer .foot_blog .blog_detaols {
+        margin-top: 20px;
+        position: relative;
+    }
+    .b_txt {
+        width: 78%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .foot_last {
+        margin-top: 30px;
+    }
+    #footer .foot_last .instra_details {
+        margin-top: 30px;
+       
+    }
+    #footer .foot_last .instra_details {
+      
+        width: 70%;
+    }
+    /*============footer end=========*/
+  
+  
+}
+@media(min-width: 992px) and (max-width: 1199px){
+  /*============manu start=========*/
+  .manu {
+   
+    margin-top: 0px;
+}
+.manu.fixed {
+   
+    background: #E98283;
+}
+    /*============manu end=========*/
+  /*============banner start=========*/
+  #banner {
+
+	padding: 130px 0;
+}
+#banner .banner_txt img {
+	display: block;
+}
+    /*============banner end=========*/
+  /*============about start=========*/
+  #about .about_details {
+	
+	margin: 20px -15px 0;
+}
+/* #about .about_details .about_img .overly {
+
+	width: 91%;
+} */
+
+    /*============about end=========*/
+  /*============jon start=========*/
+  #jondeo .jon_icon a {
+	left: 30%;
+}
+    /*============jon end=========*/
+  /*============team start=========*/
+  #team .team_details {
+	margin-top: 30px;
+}
+#team .team_details .team_img .overly .overly_all {
+
+	margin-left: 70px;
+
+}
+/* #team .team_details .team_img .overly {
+	width: 91%;
+} */
+#team .team_details .team_img .overly .overly_all ul li a {
+	width: 36px;
+	height: 36px;	
+	line-height: 36px;
+}
+#team .team_details .team_img .overly .overly_all {
+	
+	margin-left: 0;
+	width: 154px;
+	text-align: center;
+}
+.work_details {
+	padding: 50px 0;
+}
+    /*============team end=========*/
+  /*============footer start=========*/
+  #footer .foot_left p {
+    margin-top: 15px;
+  
+}
+#footer .foot_left h4 {
+
+    margin-top: 15px;
+ 
+}
+#footer .foot_left h5 ul li a i {
+	font-size: 13px;
+}
+input {
+	position: static;
+	margin-bottom: 20px;
+	margin-top: -12px;
+}
+#footer .foot_blog .blog_detaols {
+	margin-top: 40px;
+}
+.b_txt {
+	margin-left: 30px;
+}
+#footer .foot_last .instra_details {
+	margin-top: 40px;
+
+}
+#footer .foot_last .instra_details .i_nstra_img {
+	width: 38%;
+
+}
+    /*============footer end=========*/
+ 
+}
+@media(min-width: 1200px) and (max-width: 1399px){
+    .manu {
+   
+        margin-top: 0px;
+    }
+    .manu.fixed {
+       
+        background: #E98283;
+    }
+    #banner {
+
+        padding: 150px 0;
+    }
+    #banner .banner_txt img {
+        display: block;
+    }
+    #about .about_details {
+	
+        margin: 20px -15px 0;
+    }
+    /* #about .about_details .about_img .overly {
+    
+        width: 92%;
+    } */
+    #team .team_details {
+        margin-top: 30px;
+    }
+    #team .team_details .team_img .overly .overly_all {
+    
+        margin-left: 70px;
+    
+    }
+    /* #team .team_details .team_img .overly {
+        width: 92%;
+    } */
+}
+@media (min-width:1400px){
+    .manu {
+   
+        margin-top: 0px;
+    }
+    .manu.fixed {
+       
+        background: #E98283;
+    }
+    #banner {
+
+        padding: 230px 0;
+    }
+    #banner .banner_txt img {
+        display: block;
+    }
+    /* #about .about_details .about_img .overly {
+    
+        width: 93%;
+    } */
+    /* #team .team_details .team_img .overly {
+        width: 93.5%;
+    } */
+}

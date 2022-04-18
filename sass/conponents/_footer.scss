@@ -1,0 +1,127 @@
+@import '../mixin/mixins';
+@import '../variables/variables';
+
+#footer {
+    overflow-x: hidden;
+    background: #f8f8f8;
+    padding: 50px 0;
+
+    .foot_left {
+        p {
+            margin-top: 42px;
+            @include ts (#999, 15px, 400, $roboto);
+            line-height: 24px;
+        }
+
+        h4 {
+            @include ts (#333, 18px, 700, $monts);
+            margin-top: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E5E5E5;
+
+            span {
+
+                @include ts (#333, 14px, 400, $monts);
+            }
+        }
+
+        h5 {
+            @include ts (#9999, 14px, 300, $roboto);
+            font-style: italic;
+            margin-top: 20px;
+            position: relative;
+
+            ul {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 80px;
+
+                li {
+                    margin: 08px;
+
+                    a {
+                        i {
+                            color: #95E1D3;
+                            font-size: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn {
+            margin-top: 20px;
+
+            ul {
+                li {
+                    input {
+                        padding: 7px 0 10px 10px;
+                        border: 1px solid #e5e5e5;
+
+                    }
+
+                    button {
+                        padding: 10px 19px 10px 19px;
+                        border: 1px solid #95e1d3;
+                        background: #95e1d3;
+                        @include ts(#fff, 14px, 700, $monts);
+                        text-transform: uppercase;
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .foot_blog {
+        h4 {
+            @include ts(#333, 14px, 400, $monts);
+            text-transform: uppercase;
+        }
+
+        .blog_detaols {
+            margin-top: 52px;
+
+            .b_txt {
+                p {
+                    @include ts(#333, 12px, 400, $monts);
+                    margin: 5px 0 0px !important;
+                    text-transform: uppercase;
+                }
+
+                span {
+                    @include ts(#999, 12px, 300, $monts);
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+    .foot_last {
+        h4 {
+            @include ts(#333, 14px, 400, $monts);
+            text-transform: uppercase;
+        }
+
+        .instra_details {
+            margin-top: 52px;
+            display: flex;
+
+            .i_nstra_img {
+                width: 31%;
+                margin-right: -22px;
+                margin-bottom: 2px;
+
+            }
+        }
+
+        span {
+            @include ts(#999, 13px, 300, $roboto);
+            font-style: italic;
+            margin-top: 5px;
+        }
+    }
+}

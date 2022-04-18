@@ -1,0 +1,43 @@
+#counter {
+    overflow-x: hidden;
+    background: #95e1d3;
+
+    .counter_col {
+        padding: 75px 0;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: #eee;
+        }
+
+        &:first-child {
+            &::before {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                width: 1px;
+                height: 100%;
+                background: #eee;
+            }
+        }
+
+        width: 20%;
+
+        h3 {
+            @include ts(#fff, 72px, 700, $monts);
+        }
+
+        p {
+            @include ts(#fff, 14px, 400, $monts);
+            text-transform: uppercase;
+        }
+    }
+
+}
